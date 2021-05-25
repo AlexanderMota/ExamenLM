@@ -1,7 +1,7 @@
 
 console.log('JS ajax Activo.');
 
-document.querySelector('#boton').addEventListener('click', cargaDatos("xml/libros","xml"));
+document.querySelector('#boton').addEventListener('click', cargaDatos("xml/examen","xml"));
 
 function cargaDatos(rutaNombre, tipo)
 {
@@ -44,8 +44,8 @@ function  gestionarFicheroXML(archivoXML)
 
 	console.log('Gestionando fichero XML');
 	let capaVacia = document.querySelector("#filas");
-	let general = archivoXML.querySelector("busquedaLibros");
-	let objC = general.querySelectorAll("libreria");
+	let general = archivoXML.querySelector("examen");
+	let objC = general.querySelectorAll("alumno");
 	for(let e of objC) {
 		//let objCDesc = e.querySelector("nombre");
 		let objCDesc = e.getElementsByTagName("nombre")[0].textContent;

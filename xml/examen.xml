@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<examen>
+	<alumno>
+		<id>23</id>
+		<nombre>Alexander</nombre>
+		<curso>1º DAM BA</curso>
+	</alumno>
+	<alumno>
+		<id>44</id>
+		<nombre>Pepe</nombre>
+		<curso>1º DAM BB</curso>
+	</alumno>
+</busquedaLibros>
